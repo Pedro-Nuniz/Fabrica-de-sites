@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(117, 172, 28);
+    background-image: ("conteudo/img/R.jpg");
+}
+
+fieldset {
+    width: 100px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    margin: 112px 35%;
+}
+
