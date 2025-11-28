@@ -93,3 +93,6 @@ background-image: linear-gradient(to left , rgb(0, 0, 0), rgb(238, 255, 0));
   
 }
 
+.btn{
+  background-color: aqua;  
+}
