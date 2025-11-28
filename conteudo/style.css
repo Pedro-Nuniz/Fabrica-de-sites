@@ -1,26 +1,65 @@
 body {
-    background-color: rgb(117, 172, 28);
+background-color: #0000;
 }
 
 .navbar {
-    background-color: rgb(10, 206, 10);
-    width: 500px;
+    background-color: #0000;
+    width: 550px;
     height: 50px;
     overflow: hidden;
     display: flex;
     margin: 0 auto;
 }
 
+.navbar:hover {
+    background-color: rgb(18, 187, 18);
+}
 
 .navbar a {
     text-decoration: none;
     padding: 14px 16px;
     color: rgb(243, 255, 10);
+    cursor: pointer;
+
 }
 
 .rad {
-    height: 50px;
+    height: 500px;
     position: absolute;
     bottom: 0;
     right: 0;
 }
+
+ #text {
+    top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    width:   100%;
+
+}
+
+#txt {
+ 
+    height: 20vh;
+    display: inline-block;
+    width: 650px;
+    margin: 0 auto;
+    color: #ffff;
+    }
+
+    
+ fieldset {
+    width: 100px;
+    background-color: rgb(10, 206, 10);
+}
+
+.form {
+
+    /* display: flex;   */
+    margin: 0 auto;
+    width: 650px;
+
+}
+

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="short icon" href="/icon/favicon_io/favicon.ico" type="/ico" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/conteudo/style.css">
     <title>formulario</title>
 
 
@@ -13,6 +13,16 @@
 
 <body>
     <div class="form">
+        
+    <div class="navbar">
+        <a href="/conteudo/index.html">Introdução</a>
+        <a href="/conteudo/energia.html">Energia</a>
+        <a href="/conteudo/medicina.html">Medicina</a>
+        <a href="/conteudo/bombas.html">Bombas</a>
+        <a href="/conteudo/politicas.html">Politicas</a>
+        <a href="/formulario/index.html">Sugestão</a>
+    </div>
+
         <form action="">
             <fieldset>
                 <div class="Contato">
@@ -46,52 +56,7 @@
         </form>
     </div>
 
-    <script>
-        function validaForm() {
-            const email = document.getElementById('email');
-            let emailText = email.value.trim();
-            let valido = false;
-            if (emailText.includes("@")) {
-                valido = true;
-            } else {
-                valido = false;
-            }
-
-            let partesEmail = emailText.split("@");
-            if (partesEmail[0].lenght >= 7 && partesEmail[0].lenght <= 127) {
-                valido = true;
-            } else {
-                valido = false;
-            }
-
-            const nome = document.getElementById("nome");
-            let nomeText = nome.value.trim();
-            if (nome.lenght >= 3) {
-                console.log("Nome  atende ao tamanho mínimo")
-                valido = true;
-            }
-            else {
-                valido = false;
-            }
-
-            const textArea = document.getElementById("mensagem");
-            let textTexto = textArea.value.trim();
-            if (textTexto !== "") {
-                     console.log("Texto não pode ser vazio!")
-                valido = true;
-            } else {
-                valido = false;
-            } 
-
-            alert("recebemos sua mensagem, em breve entraremos em contato")
-        }
-
-        document.addEventListener("submit", function (e) {
-
-            e.preventDefault();
-            validaForm();
-        })
-    </script>
+ <script src="script.js"></script>
 </body>
 
 </html>
