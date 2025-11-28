@@ -1,9 +1,9 @@
 body {
-background-color: #0000;
+background-color: #000;
 }
 
 .navbar {
-    background-color: #0000;
+    background-image: linear-gradient(green,yellow);
     width: 550px;
     height: 50px;
     overflow: hidden;
@@ -31,7 +31,7 @@ background-color: #0000;
 }
 
  #text {
-    top: 150px;
+    top: 80px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -44,15 +44,15 @@ background-color: #0000;
  
     height: 20vh;
     display: inline-block;
-    width: 650px;
+    width: 600px;
     margin: 0 auto;
-    color: #ffff;
+    color: #000000;
     }
 
     
  fieldset {
     width: 100px;
-    background-color: rgb(10, 206, 10);
+       background-color: rgb(10, 206, 10);
 }
 
 .form {
