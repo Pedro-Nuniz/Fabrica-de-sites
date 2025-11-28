@@ -29,10 +29,10 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: action-/checkout@v4
+      uses: actions/checkout@v4
 
     - name: Setup pages
-      uses: action/configure-pages@v4
+      uses: actions/configure-pages@v4
 
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
