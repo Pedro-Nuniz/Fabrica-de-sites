@@ -94,5 +94,18 @@ background-image: linear-gradient(to left , rgb(0, 0, 0), rgb(238, 255, 0));
 }
 
 .btn{
-  background-color: aqua;  
+  background-color:  rgb(255, 248, 51);  
+  height: 50px;
+  width: 15pc;
+  border-radius: 30px;
+  margin: 0 auto;
+}
+
+.btn :hover{
+ cursor: pointer;
+background-color: rgb(245, 238, 41) ;
+}
+
+#hiper{
+    color: #dedede ;
 }
