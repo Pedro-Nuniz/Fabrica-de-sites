@@ -25,7 +25,7 @@ function validaForm() {
         alert("Texto não pode ser vazio!")
     }
     if (valido)
-        alert("recebemos sua mensagem, em breve entraremos em contato")
+        alert("recebemos sua mensagem, obrigado pela sugestão")
 }
 
 document.addEventListener("submit", function (e) {
